@@ -54,6 +54,7 @@ text-decoration: none;
 color: black;
 font-size: 19px;
 font-weight: 500;
+transition: 0,3sec;
 }
 
 .navbar-links > li > a.active{
@@ -63,17 +64,128 @@ font-weight: 500;
 
 
 
-.Nrg > img{
-   
-    width: 1270px;
-height: 99px;
-
-
-
+.Nrg1 {
+  user-select: none;
+  -webkit-user-drag: none;
 
 }
 
+.navbar-links > li > a:hover{
+
+    color:  #295091;
+}
+
+.subheading img{
+width: 40px;
+}
+
+.subheading {
+    background-color: #f6f6f6;
+    margin-top: 15px;
+    padding: 28px;
+}
+
+.news-card .calendar1{
+    color: #434343;
+    ;
+    font-weight: 400;
+font-size: 15px;
+
+}
+
+.news-card .calendar2{
+    color:  #7688A4;
+    ;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.news-card .img-date{
+    border-radius: 5px;
+    font-family: Rubik;
+
+}
+
+.news-card .title{
+    font-family: Rubik;
+    font-weight: 600;
+font-size: 17px;
+}
+
+.Popular-News{
+    background-color: #F6F6F9;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.pupsik-card .date{
+    font-size: 14px;
+   font-weight: 400;
+color:  #7688A4;
+;
+}
+
+.pupsik-card .title{
+    font-size: 17px;
+    font-weight: 400;
+    color:  #202020;
+    ;
+}
+
+.mini-hr > hr{
+height: 4px;
+border: none;
+background-color: #E4E4E4;
+margin: 0;
+}
+
+ 
+
+.navbar-logo1 {
+    background-color:  #295093;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
+}
 
 
+.navbar-logo3{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight:700;
+    color:#ffffff;
+    background-color: #133C82;
+    padding: 5px 10px;
+    font-family: Rubik;
+border-radius: 5px;
+}
 
+.my-Navbar1{
+    background-color: #295093;
+    ;
+}
+
+.p1{
+    color: #ffffff;
+}
+
+.navbar-telegram1{
+   background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #295093;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.colors{
+    color: #ffffff;
+    font-size: 14px;
+   margin-top: 30px;
+}
 
