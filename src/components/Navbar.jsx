@@ -31,7 +31,7 @@ function Navbar() {
                             <li><Link>Узбекистана</Link></li>
                             <li><Link>Мир</Link></li>
                             <li><Link>Экономика</Link></li>
-                            <li><Link className="active">Политика</Link></li>
+                            <li><Link  to={"/"} className="active">Политика</Link></li>
                             <li><Link>Общество</Link></li>
                             <li><Link>Технологии</Link></li>
                             <li><Link>Спорт</Link></li>

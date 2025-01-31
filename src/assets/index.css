@@ -144,11 +144,12 @@ margin: 0;
 
 .navbar-logo1 {
     background-color:  #295093;
-    border: none;
+    border: 2px solid #295093 ;
     border-radius: 4px;
     color: white;
     padding: 8px;
     margin-top: 20px;
+    transition:1s;
 }
 
 
@@ -187,5 +188,75 @@ border-radius: 5px;
     color: #ffffff;
     font-size: 14px;
    margin-top: 30px;
+}
+
+.pupsik-p{
+   color: #28508E;
+text-decoration: none;
+margin: 3px 3px;
+}
+
+.topic-news img{
+height: 250px;
+width: 100%;
+}
+
+.contact-form :where(input,textarea){
+margin: 20px 0;
+box-shadow: none;
+border: 4px solide #285193 !important;
+background-color: #F1F1F1F1 !important;
+resize: none;
+}
+
+.contact-form  :where(input,textarea)::placeholder{
+   color: #888888;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.contact-form :where(input,textarea):focus{
+    border-color: #000;
+    box-shadow: none;
+}
+
+.mini-hr1{
+    width: 1299px;
+    height: 3px;
+background-color:  #295093;
+font-weight: 700;
+margin-top: 9px;
+
+
+}
+
+.navbar-logo1:hover{
+    border:2px solid #fa0404 ;
+
+}
+
+.mega-div{
+    border: 2px solid #BCC3CD;
+    background-color: #ffffff;
+    height: 280px ;
+    border-radius: 5px;
+
+    box-shadow: -19px 18px 5px #39393934;
+;
+}
+
+.navbar-logo12{
+    padding-left: 250px;
+   
+    text-decoration: none;
+    font-size: 28px;
+    font-weight:700;
+    color: #295091;
+    font-family: Rubik;
+border-radius: 5px;
+}
+
+.chtoto-shadow > p{
+    color: #888888;
 }
 

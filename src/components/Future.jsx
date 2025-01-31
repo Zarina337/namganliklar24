@@ -23,7 +23,7 @@ function Future() {
                             </div>
                         </div>
 
-
+                        <div className="mini-hr1"></div>
 
 
                         <div className="col-5 colors">
@@ -35,7 +35,7 @@ function Future() {
 
                         <div className="col-3 colors">
                             <p> Информация о сайте </p>
-                            <p>Напишите нам </p>
+                            <Link to={"/d2"}  className=" text-white text-decoration-none">Напишите нам </Link>
                             <p>Реклама </p>
                             <p>Прислать новость</p>
                         </div>
